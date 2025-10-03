@@ -17,7 +17,7 @@ Data covers the the period from 1st August 2025 to 18th August 2025, which inclu
 
 ## Visualizations
 
-- [How Bangalore Uses The Metro](https://diagramchasing.fun/2025/how-blr-uses-the-metro)
+- [How Bangalore Uses The Metro](https://diagramchasing.fun/2025/how-bangalore-uses-the-metro)
 
 ## Scripts
 
