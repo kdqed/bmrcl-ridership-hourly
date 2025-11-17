@@ -5,9 +5,9 @@ authors:
   given-names: "Vivek"
   orcid: https://orcid.org/0009-0003-2627-7788
 title: "Namma Metro (BMRCL) Hourly Ridership"
-version: 2025.10.01
+version: 2025.11.17
 url: "https://github.com/Vonter/bmrcl-ridership-hourly"
-date-released: 2025-10-01
+date-released: 2025-11-17
 preferred-citation:
   url: "https://github.com/Vonter/bmrcl-ridership-hourly"
   type: data

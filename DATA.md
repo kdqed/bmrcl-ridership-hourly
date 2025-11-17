@@ -1,10 +1,16 @@
 # bmrcl-ridership-hourly
 
 The data was sourced from an RTI. The responses from the RTI are in the form of Excel files:
-- [station-hourly.xlsx](raw/station-hourly.xlsx): Station hourly ridership
-- [stationpair-hourly.xlsx](raw/stationpair-hourly.xlsx): Station pair hourly ridership
+- [august/station-hourly.xlsx](raw/august/station-hourly.xlsx): Station hourly ridership for August 2025
+- [august/stationpair-hourly.xlsx](raw/august/stationpair-hourly.xlsx): Station pair hourly ridership for August 2025
+- [september/station-hourly.xlsx](raw/september/station-hourly.xlsx): Station hourly ridership for September 2025
 
-Data covers the the period from 1st August 2025 to 18th August 2025, which includes a period both prior and post the opening of the Yellow Line, on 11th August 2025.
+Data covers the following periods:
+- Station Hourly Ridership:
+  - 1st August 2025 to 18th August 2025
+  - 1st September 2025 to 30th September 2025
+- Station Pair Hourly Ridership:
+  - 1st August 2025 to 18th August 2025
 
 ## Data dictionary
 
@@ -16,6 +22,15 @@ Data covers the the period from 1st August 2025 to 18th August 2025, which inclu
 | Hour | int64 | Hour of the day when the ridership was recorded (0-23) |
 | Station | string | Station name (83 unique stations) |
 | Ridership | int64 | Ridership count (Number of passengers boarded at the station during the hour) |
+
+### Station hourly ridership (exits)
+
+| Variable | Type | Description |
+|----------|------|-------------|
+| Date | string | Date when the ridership was recorded (format: YYYY-MM-DD) |
+| Hour | int64 | Hour of the day when the ridership was recorded (0-23) |
+| Station | string | Station name (83 unique stations) |
+| Ridership | int64 | Ridership count (Number of passengers deboarded at the station during the hour) |
 
 ### Station pair hourly ridership
 
@@ -37,7 +52,7 @@ The original Excel file for station pair hourly ridership uses station codes ins
 
 The data was sourced from an RTI, filed with the help of documentation on filing an RTI by [Zen Citizen](https://zencitizen.in/2024/12/29/what-to-expect-when-you-are-filing-an-rti-application/).
 
-The body of the RTI request was as follows:
+The body of the August 2025 RTI request was as follows:
 
 ```
 I request the following information under Section 6(1) of the RTI Act, 2005.

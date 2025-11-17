@@ -4,16 +4,19 @@ Dataset of hourly station-wise ridership on the Namma Metro subway network opera
 
 Explore the dataset:
 - [Station hourly ridership](https://hyparam.github.io/demos/hyparquet/?key=https%3A%2F%2Fraw.githubusercontent.com%2FVonter%2Fbmrcl-ridership-hourly%2Fmain%2Fdata%2Fstation-hourly.parquet).
+- [Station hourly ridership (exits)](https://hyparam.github.io/demos/hyparquet/?key=https%3A%2F%2Fraw.githubusercontent.com%2FVonter%2Fbmrcl-ridership-hourly%2Fmain%2Fdata%2Fstation-hourly-exits.parquet).
 - [Station pair hourly ridership](https://hyparam.github.io/demos/hyparquet/?key=https%3A%2F%2Fraw.githubusercontent.com%2FVonter%2Fbmrcl-ridership-hourly%2Fmain%2Fdata%2Fstationpair-hourly.parquet).
 
 ## Data
 
 * [station-hourly.parquet](data/station-hourly.parquet?raw=1): Station hourly ridership as Parquet file.
 * [station-hourly.csv.zip](data/station-hourly.csv.zip?raw=1): Station hourly ridership as CSV compressed in a Zip file.
+* [station-hourly-exits.parquet](data/station-hourly-exits.parquet?raw=1): Station hourly ridership (exits) as Parquet file.
+* [station-hourly-exits.csv.zip](data/station-hourly-exits.csv.zip?raw=1): Station hourly ridership (exits) as CSV compressed in a Zip file.
 * [stationpair-hourly.parquet](data/stationpair-hourly.parquet?raw=1): Station pair hourly ridership as Parquet file.
 * [stationpair-hourly.csv.zip](data/stationpair-hourly.csv.zip?raw=1): Station pair hourly ridership as CSV compressed in a Zip file.
 
-Data covers the the period from 1st August 2025 to 18th August 2025, which includes a period both prior and post the opening of the Yellow Line, on 11th August 2025. For more details, refer to the [DATA.md](DATA.md).
+For more details, refer to the [DATA.md](DATA.md).
 
 ## Visualizations
 
